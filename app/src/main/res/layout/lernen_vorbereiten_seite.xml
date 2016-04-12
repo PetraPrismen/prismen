@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:baselineAligned="false"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_themen_lernen"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/themen"
+            style="@style/btText"
+            android:layout_height="fill_parent">
+        </Button>
+        <Button
+            android:id="@+id/bt_lektionen_lernen"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            style="@style/btText"
+            android:text="@string/lektionen"
+            android:layout_height="fill_parent">
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:baselineAligned="false"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/list_themen_lernen"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="fill_parent">
+        </ListView>
+        <ListView
+            android:id="@+id/list_lektionen_lernen"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:choiceMode="multipleChoice"
+            android:layout_height="fill_parent">
+        </ListView>
+
+    </LinearLayout>
+    <Button
+        style="@style/btText"
+        android:id="@+id/bt_lernen_anfangen"
+        android:layout_width="fill_parent"
+        android:layout_weight="0"
+        android:text="@string/lernen_anfangen"
+        android:onClick="onClickLernenAnfangen"
+        android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>

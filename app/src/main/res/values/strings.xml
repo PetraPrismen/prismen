@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Prismen</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt_verwalten">Verwalten</string>
+    <string name="listThemeHeader">Themen</string>
+    <string name="thema">Thema</string>
+    <string name="lektion">Lektion</string>
+    <string name="prisma">Prisma</string>
+    <string name="themen">Themen</string>
+    <string name="lektionen">Lektionen</string>
+    <string name="prismen">Prismen</string>
+    <string name="listLektionHeader">Lektionen</string>
+    <string name="save">Speichern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="fragen">Frage: </string>
+    <string name="antworten">Antwort: </string>
+    <string name="prismen_title">Prismen</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+    <!-- Titles for Dialogs-->
+    <string name="titleDialogAddThema">Neues Thema</string>
+    <string name="titleDialogAddLektion">Neue Lektion</string>
+    <string name="titleDialogAddPrisma">Neues Prisma</string>
+    <string name="titleDialogThemaBearbeiten">Thema bearbeiten</string>
+    <string name="titleDialogLektionBearbeiten">Lektion Bearbeiten</string>
+    <string name="titleDialogAddPrismaBearbeiten">Prisma Bearbeiten</string>
+    <string name="titleDialogSeiteBearbeiten">Seite Bearbeiten</string>
+    <string name="titleDialogSeiteHinzufuegen">Seite hinzufügen</string>
+    <!-- Texts for SeiteHinzufuegenSeite Activity-->
+    <string name="typ">Typ:</string>
+    <string name="text_antwort">Antwort:</string>
+    <string name="text_frage">Frage:</string>
+    <string-array name="seiten_typ">
+        <item>@string/antwort</item>
+        <item>@string/karte</item>
+    </string-array>
+    <string name="antwort">Einfache Antwort</string>
+    <string name="karte">Karte</string>
+
+    <string name="inform_error_speichern_seite_bearbeiten_antwort_null">Fehler beim Speichern: ungültige Antwort</string>
+    <string name="bt_lernen">Lernen</string>
+    <string name="themaLektionAuswaehlen">Thema und Lektion auswählen</string>
+    <string name="lernen_anfangen">Mit dem Lernen anfangen</string>
+    <!-- error messages managing persistent data -->
+    <string name="error_get_themen">Fehler beim Holen von Themen</string>
+    <string name="error_get_lektionen">Fehler beim Holen von Lektionen</string>
+    <string name="error_get_prismen">Fehler beim Holen von Prismen</string>
+    <string name="error_get_seiten">Fehler beim Holen von Seiten</string>
+    <string name="error_delete">Fehler beim Löschen</string>
+    <string name="error_update">Fehler beim Update</string>
+    <string name="error_save">Fehler beim Speichern</string>
+    <string name="seite_not_saved_void_frage">Seite nicht gespeichtert: Antwort ist leer.</string>
+    <string name="seite_deleted">Seite gelöscht</string>
+    <string name="prisma_and_content_deleted">Prisma und dessen Inhalt gelöscht</string>
+    <string name="for_learning_should_choose_lektion">Bitte wählen Sie eine Lektion zum Lernen</string>
+    <string name="error_lektion_kein_prisma">Diese Lektion hat kein Prisma</string>
+    <string name="error_prisma_keine_seite">Dieses Prisma hat keine Seiten</string>
+    <string name="of">von</string>
+
+
+</resources>

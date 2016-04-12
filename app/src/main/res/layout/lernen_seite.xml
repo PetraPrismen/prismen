@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <Button
+        android:id="@+id/bt_prisma_lernen"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textAppearance="@style/lernen_prisma_name"
+        android:onClick="onClickPrismaLernen"
+        android:layout_height="100px">
+    </Button>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/radio_group">
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text_frage_lernen"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_weight="3"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/text_antwort_lernen"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!--
+    <TextView
+        android:id="@+id/text_nb_seiten"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    android:background="@drawable/rectangle"
+
+    <FrameLayout
+        android:id="@+id/fragment_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+    -->
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:baselineAligned="false"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/bt_themen_lernen"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/themen"
+            android:src="@drawable/ic_action_arrow_left"
+            style="@style/btText"
+            android:onClick="onClickPreviousPrisma"
+            android:layout_height="fill_parent">
+        </ImageButton>
+        <TextView
+            android:id="@+id/nb_prismen_lektion"
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/bt_lektionen_lernen"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_action_arrow_right"
+            style="@style/btText"
+            android:text="@string/lektionen"
+            android:onClick="onClickNextPrisma"
+            android:layout_height="fill_parent">
+        </ImageButton>
+
+    </LinearLayout>
+
+</LinearLayout>

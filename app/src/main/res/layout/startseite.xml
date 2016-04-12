@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".start.Startseite">
+
+
+    <include layout="@layout/toolbar"/>
+
+
+    <Button
+        android:id="@+id/bt_verwalten"
+        style="@style/btText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="@string/bt_verwalten"
+        android:onClick="onClickVerwalten"/>
+    <Button
+        android:id="@+id/bt_lernen"
+        style="@style/btText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5sp"
+        android:text="@string/bt_lernen"
+        android:onClick="onClickLernen"/>
+
+
+</LinearLayout>

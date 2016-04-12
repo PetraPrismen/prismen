@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/thema_prismen_seite"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="10dp"/>
+    <TextView
+        android:id="@+id/lektion_prismen_seite"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="10dp"/>
+
+    <include layout="@layout/toolbar"/>
+
+    <ExpandableListView
+        android:id="@+id/list_prismen"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+    </ExpandableListView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Cyan-->
+    <color name="colorPrimary">#26A69A</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorAccent">#26a69a</color>
+    <color name="colorAccentOld">#FF4081</color>
+    <color name="colorPrimaryLighter">#A7FFEB</color>
+    <color name="black">#000000</color>
+</resources>
